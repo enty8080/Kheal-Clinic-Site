@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  width: 800px; /* Adjust to your image width */
+  height: 600px; /* Adjust to your image height */
+  background-image: url('base.png'); /* Replace with your image URL */
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between; /* Align logo left and links right */
+  align-items: center; /* Center items vertically */
+  padding: 10px;
+  position: absolute;
+  top: 30px;
+  width: 100%;
+}
+
+.header img {
+  position: absolute;
+  top: 0px;
+  left: 120px;
+  width: 120px; /* Placeholder for your logo */
+}
+
+.header nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 300px;
+  top: 30px;
+}
+
+.header nav ul li {
+  margin-left: 20px; /* Space between links */
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.sidebar {
+  position: absolute;
+  top: 300px;
+  left: -50px;
+  width: 200px;
+  list-style-type: none;
+}
+
+.sidebar ul li {
+  list-style-type: none; /* Remove bullet points */
+  margin-bottom: 15px; /* Vertical space between items */
+}
+
+.image-section {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 300px;
+  height: 600px;
+}
+
+.paragraph-section {
+  position: absolute;
+  top: 185px;
+  right: 50px;
+  padding: 10px;
+  width: 250px; /* Made the paragraph section narrower */
+  font-size: 14px; /* Reduced font size */
+}

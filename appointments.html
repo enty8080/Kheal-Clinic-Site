@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appointments | Medical Centre</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <center>
+    <div class="container">
+      <div class="header">
+        <img src="logo_processed.png" alt="Medical Centre Logo">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="sidebar">
+        <ul>
+          <li><a href="contact.html">About Us</a></li>
+          <li><a href="appointments.html">Appointments</a></li>
+          <li><a href="https://maps.app.goo.gl/YC5mMXqLNZASczuU6">Location</a></li>
+        </ul>
+      </div>
+
+      <div class="image-section">
+        <img style="height: 200px; width: 200px;" src="gp_services.png">
+        <img style="height: 150px; width: 170px;" src="team_of_professionals.png">
+      </div>
+
+      <div class="paragraph-section">
+        <h2>Book an Appointment</h2>
+        <form action="#" method="POST">
+          <label for="name"><strong>Full Name:</strong></label><br>
+          <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+
+          <label for="email"><strong>Email Address:</strong></label><br>
+          <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+
+          <label for="phone"><strong>Phone Number:</strong></label><br>
+          <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required><br><br>
+
+          <label for="date"><strong>Preferred Date and Time:</strong></label><br>
+          <input type="date" id="date" name="date" required>
+          <input type="time" id="time" name="time" required><br>
+
+          <label for="message"><strong>Additional Information:</strong></label><br>
+          <textarea id="message" name="message" rows="3" placeholder="Additional Notes (optional)"></textarea><br><br>
+
+          <button type="submit">Submit Appointment</button>
+        </form>
+      </div>
+    </div>
+  </center>
+</body>
+</html>
